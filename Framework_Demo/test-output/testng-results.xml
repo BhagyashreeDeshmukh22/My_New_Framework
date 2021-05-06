@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting started]]>
+    </line>
+    <line>
+      <![CDATA[Setting  done and Test get Started]]>
+    </line>
+    <line>
+      <![CDATA[Setting up Browsers and app url]]>
+    </line>
+    <line>
+      <![CDATA[Setting done and Browser has launched and Application is strat]]>
+    </line>
+    <line>
+      <![CDATA[Test case is running]]>
+    </line>
+    <line>
+      <![CDATA[TestCase completed]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end and creating report internally]]>
+    </line>
+    <line>
+      <![CDATA[ Test Completed >>>Reports Generated]]>
+    </line>
+    <line>
+      <![CDATA[Browser has closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81889" started-at="2021-05-06T06:23:54Z" finished-at="2021-05-06T06:25:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="81889" started-at="2021-05-06T06:23:54Z" finished-at="2021-05-06T06:25:16Z">
+      <class name="testcases.Login_Test_CRM">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:testcases.Login_Test_CRM@a7bc6e]" name="setupSuite" is-config="true" duration-ms="1688" started-at="2021-05-06T06:23:53Z" finished-at="2021-05-06T06:23:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting started]]>
+            </line>
+            <line>
+              <![CDATA[Setting  done and Test get Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Login_Test_CRM@a7bc6e]" name="setup" is-config="true" duration-ms="59745" started-at="2021-05-06T06:23:54Z" finished-at="2021-05-06T06:24:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up Browsers and app url]]>
+            </line>
+            <line>
+              <![CDATA[Setting done and Browser has launched and Application is strat]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:testcases.Login_Test_CRM@a7bc6e]" name="loginApp" duration-ms="19386" started-at="2021-05-06T06:24:54Z" finished-at="2021-05-06T06:25:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is running]]>
+            </line>
+            <line>
+              <![CDATA[TestCase completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:testcases.Login_Test_CRM@a7bc6e]" name="tearDownMethod" is-config="true" duration-ms="1322" started-at="2021-05-06T06:25:14Z" finished-at="2021-05-06T06:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=Login_Test_CRM.loginApp()[pri:1, instance:testcases.Login_Test_CRM@a7bc6e] output=Test case is running]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end and creating report internally]]>
+            </line>
+            <line>
+              <![CDATA[ Test Completed >>>Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Login_Test_CRM@a7bc6e]" name="tearDown" is-config="true" duration-ms="1371" started-at="2021-05-06T06:25:15Z" finished-at="2021-05-06T06:25:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser has closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Login_Test_CRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
